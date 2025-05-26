@@ -44,14 +44,22 @@ UPLOAD
 * PARAMETER:
   - nama_file
   - isi_file dalam format base64
-* RESPONSE:
-  - OK: {"status": "OK", "data": "nama_file berhasil diupload"}
-  - ERROR: {"status": "ERROR", "data": pesan_kesalahan}
+* RESULT:
+- BERHASIL:
+  - status: OK
+  - data : nama_file berhasil diupload
+- GAGAL:
+  - status: ERROR
+  - data: pesan kesalahan
 
 DELETE
 * TUJUAN: Menghapus file dari server
 * PARAMETER:
   - nama_file
-* RESPONSE:
-  - OK: {"status": "OK", "data": "nama_file berhasil dihapus"}
-  - ERROR: {"status": "ERROR", "data": pesan_kesalahan}
+* RESULT:
+- BERHASIL:
+  - status: OK
+  - data : nama_file berhasil dihapus
+- GAGAL:
+  - status: ERROR
+  - data: pesan kesalahan
